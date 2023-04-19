@@ -1,13 +1,13 @@
 class: middle, center, title-slide
 count: false
 
-# Analysis Systems: <br>Workshop Outcomes and Action Items
+# Software Citation in HEP:<br> Current State and<br> Recommendations for the Future
 .large.blue[Matthew Feickert]<br>
 .large[(University of Wisconsin-Madison)]
 <br>
 [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch)
 
-[IRIS-HEP AGC workshop 2023](https://indico.cern.ch/event/1260431/contributions/5315157/)
+[International Conference on Computing in High Energy and Nuclear Physics (CHEP) 2023](https://indico.jlab.org/event/459/contributions/11688/)
 
 May 5th, 2023
 
