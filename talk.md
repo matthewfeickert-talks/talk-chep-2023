@@ -31,6 +31,21 @@ May 8th, 2023
 ]
 
 ---
+# Importance of Software Citation
+
+.large[
+.kol-1-3[
+* .blue[Point A] 🎉
+* .red[Point B] 🌐
+* .bold[Point C] 🚀
+]
+.kol-2-3[
+.center.width-90[[![software-citation-data-cite](figures/software-citation-data-cite.png)](https://support.datacite.org/docs/software-citation)]
+.center[[Software Citation Principles](https://support.datacite.org/docs/software-citation), Credit: Data Cite]
+]
+]
+
+---
 # Example Slide
 
 .large[
