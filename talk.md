@@ -85,6 +85,15 @@ May 8th, 2023
 ]
 
 ---
+# Support from Journals
+
+.large[
+* .blue[Point A] 🎉
+* .red[Point B] 🌐
+* .bold[Point C] 🚀
+]
+
+---
 # Recommendations: Modern Tooling
 
 .large[
@@ -122,10 +131,12 @@ May 8th, 2023
 
 ---
 # Summary
+
 .kol-2-3[
 - .large[.bold[Important] points]
    * sub points!
    * and more
+   * Workshop report coming to arXiv soon
 ]
 .kol-1-3[
 <br>
