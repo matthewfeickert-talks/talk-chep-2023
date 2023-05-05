@@ -71,10 +71,44 @@ May 8th, 2023
 ]
 
 ---
-# Current State of Software Citation in HEP
+# Current State of Software Citation in HEP: ATLAS
 
-.large[
-* Now
+.huge[
+.kol-1-2[
+* Use a "catch-all" citation for ATLAS software tools
+* For statistical analysis and ML generally cite the papers for the methods, but not the tools and software
+   - Have seen some changes when the tools explicitly ask to be cited
+]
+.kol-1-2[
+X
+]
+]
+
+---
+# Current State of Software Citation in HEP: CMS
+
+.huge[
+.kol-1-2[
+* Endorses large CMS software projects having peer reviewed papers that would be cited in physics papers
+* Have expressed positive views on additional papers being written and published
+]
+.kol-1-2[
+X
+]
+]
+
+---
+# Current State of Software Citation in HEP: LHCb
+
+.huge[
+.kol-1-2[
+* Comparatively more progressive
+   - "We should cite software more"
+]
+.kol-1-2[
+.center.width-55[[![lhcb-citation-template](figures/lhcb-citation-template.png)](https://XXXXXXXXXXXXXXXXXX)]
+.center[LHCb citation template]
+]
 ]
 
 ---
