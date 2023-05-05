@@ -21,12 +21,13 @@ May 8th, 2023
 ]
 
 ---
-# Software Citation and Recognition IRIS-HEP Workshop
+# Software Citation and Recognition Workshop
 
 .large[
 * .blue[Point A] 🎉
 * .red[Point B] 🌐
 * .bold[Point C] 🚀
+* IRIS-HEP Blueprint Process Workshop
 * https://indico.cern.ch/event/1211229/
 ]
 
