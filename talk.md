@@ -64,6 +64,54 @@ May 8th, 2023
 ]
 
 ---
+# Current State of Software Citation in HEP
+
+.large[
+* Historical
+]
+
+---
+# Current State of Software Citation in HEP
+
+.large[
+* Now
+]
+
+---
+# Current State of Software Citation in HEP
+
+.large[
+* Community views and differences
+]
+
+---
+# Recommendations: Modern Tooling
+
+.large[
+* .blue[Point A] 🎉
+* .red[Point B] 🌐
+* .bold[Point C] 🚀
+]
+
+---
+# Recommendations: Best Practices
+
+.large[
+* .blue[Point A] 🎉
+* .red[Point B] 🌐
+* .bold[Point C] 🚀
+]
+
+---
+# Outlook
+
+.large[
+* .blue[Point A] 🎉
+* .red[Point B] 🌐
+* .bold[Point C] 🚀
+]
+
+---
 # Example Slide
 
 .large[
