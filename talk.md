@@ -21,6 +21,43 @@ May 8th, 2023
    In November 2022, the HEP Software Foundation (HSF) and the Institute for Research and Innovation for Software in High-Energy Physics (IRIS-HEP) organized a workshop on the topic of "Software Citation and Recognition in HEP". The goal of the workshop was to bring together different types of stakeholders whose roles relate to software citation and the associated credit it provides, in order to engage the community in a discussion of: 1) the ways in which HEP experiments handle citation of software; 2) recognition for software efforts that enable physics results disseminated to the public; and 3) how the scholarly publishing ecosystem supports these activities. We heard from the publication board leadership of ATLAS, CMS, and LHCb in order to understand the current practice of these experiments; various open source community organizations (ROOT, Scikit-HEP, MCnet) discussed how they prefer their software to be cited; talks from publishers (Elsevier, JOSS) recognized the issue and showed an openness to following the wishes of the community; and discussions with tool providers (INSPIRE, Zenodo) covered new standards and tools for citation. The workshop made a number of tensions clear, for example between citations being used for credit and for reproducibility, and between supporting the immediate (and possibly contradictory) desires of software producers that lead to credit in today's culture and actions that might positively change the culture to better recognize the work of these developers. This talk will present highlights from the workshop as well as findings and recommendations documented in the workshop report.
 
 ---
+# Co-conveners
+
+<br>
+
+.grid[
+.kol-1-4.center[
+<!-- https://avatars.githubusercontent.com/u/2913845?v=4 -->
+.circle.width-90[![Daniel](figures/collaborators/katz.jpg)]
+
+[Daniel Katz](https://danielskatz.org/)
+
+University of Illinois at Urbana-Champaign/NCSA
+]
+.kol-1-4.center[
+.circle.width-95[![Mark](figures/collaborators/neubauer.png)]
+
+[Mark Neubauer](https://www.marksneubauer.com/)
+
+University of Illinois at Urbana-Champaign
+]
+.kol-1-4.center[
+.circle.width-80[![Liz](figures/collaborators/sexton.jpg)]
+
+[Elizabeth Sexton](https://computing.fnal.gov/liz-sexton-kennedy/)
+
+FNAL
+]
+.kol-1-4.center[
+.circle.width-85[![Graeme](figures/collaborators/stewart.png)]
+
+[Graeme Stewart](https://ep-rnd.web.cern.ch/person/graeme-stewart)
+
+CERN
+]
+]
+
+---
 # Software Citation and Recognition Workshop
 
 .huge[
