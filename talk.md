@@ -291,6 +291,7 @@ date-released: 2021-08-11
 * HEP historically has engaged in software citation
 * Agreement that more citation is probably useful and programatic discovery of citations is important
 * With modern tools and standards have the opportunity to .bold[expand and standardize]
+* Final summary paper from workshop forthcoming
 ]
 
 ---
