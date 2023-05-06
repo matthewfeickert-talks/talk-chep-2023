@@ -21,12 +21,17 @@ May 8th, 2023
 ---
 # Software Citation and Recognition Workshop
 
-.large[
-* .blue[Point A] 🎉
-* .red[Point B] 🌐
-* .bold[Point C] 🚀
-* IRIS-HEP Blueprint Process Workshop
-* https://indico.cern.ch/event/1211229/
+.huge[
+* [2022 IRIS-HEP Blueprint Process Workshop](https://indico.cern.ch/event/1211229/)
+<br>
+<br>
+.italic[This meeting aims to provide a community discussion around ways in which HEP .bold[experiments handle citation of software] and .bold[recognition for software efforts] that enable physics results disseminated to the public.]
+<br>
+<br>
+* Had representation from:
+   - .bold[Experiments]: ATLAS, CMS, LHCb
+   - .bold[Software project communities]: ROOT Team, Scikit-HEP, MCnet, IRIS-HEP
+   - .bold[Publishers]: Elsevier, Journal of Open Source Software (JOSS)
 ]
 
 ---
@@ -100,7 +105,7 @@ X
    - Though open to idea: "We should cite software more"
 ]
 .kol-1-2[
-.center.width-55[[![lhcb-citation-template](figures/lhcb-citation-template.png)](https://XXXXXXXXXXXXXXXXXX)]
+.center.width-55[[![lhcb-citation-template](figures/lhcb-citation-template.png)](https://indico.cern.ch/event/1211229/contributions/5150192/)]
 .center[LHCb citation template]
 ]
 ]
@@ -116,7 +121,6 @@ X
 # Support from Journals
 
 .large[
-* .blue[Point A] 🎉
 * .bold[Recommendations from Elsevier]
    - Community needs to reach consensus on how to cite software, and share outcome with Publishers (won't take lead)
    - Publishers can better instruct editors and referees what we expect from them
