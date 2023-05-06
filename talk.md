@@ -48,8 +48,8 @@ As established by [FORCE11 Software Citation working group](https://force11.org/
 6. Specificity
 ]
 .kol-2-3.huge[
-.center.width-90[[![software-citation-data-cite](figures/software-citation-data-cite.png)](https://support.datacite.org/docs/software-citation)]
-.center[[Software Citation Principles](https://support.datacite.org/docs/software-citation), Credit: Data Cite]
+.center.width-85[[![software-citation-data-cite](figures/software-citation-data-cite.png)](https://support.datacite.org/docs/software-citation)]
+.center[[Software Citation Principles](https://support.datacite.org/docs/software-citation)<br>image credit: Data Cite]
 ]
 
 ---
@@ -65,8 +65,8 @@ As established by [FORCE11 Software Citation working group](https://force11.org/
 ]
 ]
 .kol-2-3.huge[
-.center.width-90[[![software-citation-data-cite](figures/software-citation-data-cite.png)](https://support.datacite.org/docs/software-citation)]
-.center[[Software Citation Principles](https://support.datacite.org/docs/software-citation), Credit: Data Cite]
+.center.width-85[[![software-citation-data-cite](figures/software-citation-data-cite.png)](https://support.datacite.org/docs/software-citation)]
+.center[[Software Citation Principles](https://support.datacite.org/docs/software-citation)<br>image credit: Data Cite]
 ]
 
 ---
