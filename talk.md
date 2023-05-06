@@ -12,7 +12,7 @@ count: false
 May 8th, 2023
 
 ---
-# Talk Overview
+# Talk Overview [to remove]
 
 * .bold[Time]: 12 minutes talk + 3 minutes questions
 * .bold[Abstract]:
@@ -105,21 +105,30 @@ As established by [FORCE11 Software Citation working group](https://force11.org/
 ]
 
 ---
-# Current State of Software Citation in HEP
+# Current State of Software Citation in HEP: Software Projects
 
-.large[
-* Community views and differences
+.huge[
+* Community views vary widely
+   - .bold[ROOT team]: Explicitly not interested in software citation .italic[[for ROOT](https://indico.cern.ch/event/1211229/contributions/5150202/)] (view is too little impact)
+      - "ROOT's opinion likely cannot be extrapolated"
+   - .bold[Scikit-HEP]: Adopting software citation recommendations from broader open source world community norm &mdash; interested in more citations
+   - .bold[MCNet]: Find Monte Carlo generators are broadly well-cited (point to LHC experiments regular citations) &mdash; current system working well
+* Agreement on importance of technical solutions
+   - Programmatic discovery of citations important
 ]
 
 ---
-# Support from Journals
-
-.large[
-* .bold[Recommendations from Elsevier]
-   - Community needs to reach consensus on how to cite software, and share outcome with Publishers (won't take lead)
-   - Publishers can better instruct editors and referees what we expect from them
-* .bold[Recommendations from Journal of Open Source Software]
-   - X
+# Recommendations from Journals and Publishers
+.huge[
+* .bold[INSPIRE]
+   - INSPIRE currently handles software .bold[papers], but has plans to add support for Data and Software records
+   - Citations would be tracked and counted .bold[by DOI]
+* .bold[Elsevier]
+   - .bold[Community needs to reach consensus] on how to cite software, and share outcome with Publishers (won't take lead)
+   - Publishers can .bold[better instruct editors and referees] what we expect from them
+* .bold[Journal of Open Source Software]
+   - In addition to incentivizing high quality software, JOSS can help .bold[[bridge the gap](https://joss.theoj.org/about)]
+   - "recognize that for most researchers, papers and not software are the currency of academic research"
 ]
 
 ---
@@ -277,9 +286,10 @@ date-released: 2021-08-11
 # Summary
 
 .huge[
-* Software citation is an ongoing process that is not always straightforward (for any scientific field)
+* Software citation is an ongoing process that programmaticys straightforward (for any scientific field)
 * Differing community processes and standards exist in HEP
 * HEP historically has engaged in software citation
+* Agreement that more citation is probably useful and programatic discovery of citations is important
 * With modern tools and standards have the opportunity to .bold[expand and standardize]
 ]
 
