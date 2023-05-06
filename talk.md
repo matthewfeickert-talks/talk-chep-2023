@@ -325,10 +325,10 @@ date-released: 2021-08-11
 # Summary
 
 .huge[
-* Software citation is an ongoing process that is not straightforward (for any scientific field)
-* Differing community processes and standards exist in HEP
+* Software citation is an .bold[ongoing process] that is not straightforward (for any scientific field)
+* Differing community .bold[processes and standards] exist in HEP
 * HEP historically has engaged in software citation
-* Agreement that more citation is probably useful and programatic discovery of citations is important
+* Agreement that more citation is probably useful and .bold[programatic discovery] of citations is important
 * With modern tools and standards have the opportunity to .bold[expand and standardize]
 * Final summary paper from workshop forthcoming
 ]
