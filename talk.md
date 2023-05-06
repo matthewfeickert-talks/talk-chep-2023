@@ -70,7 +70,7 @@ CERN
 * Had representation from:
    - .bold[Experiments]: ATLAS, CMS, LHCb
    - .bold[Software project communities]: ROOT Team, Scikit-HEP, MCnet, IRIS-HEP
-   - .bold[Publishers]: Elsevier, Journal of Open Source Software (JOSS)
+   - .bold[Publishers]: INSPIRE, Elsevier, Journal of Open Source Software (JOSS)
 ]
 
 ---
