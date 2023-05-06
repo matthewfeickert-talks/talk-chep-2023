@@ -7,7 +7,7 @@ count: false
 <br>
 [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch)
 <br>
-Daniel Katz, Mark Neubauer, Elizabeth Sexton, Graeme Stewart
+Daniel Katz, Mark Neubauer, Elizabeth Sexton-Kennedy, Graeme Stewart
 
 [International Conference on Computing in High Energy and Nuclear Physics (CHEP) 2023](https://indico.jlab.org/event/459/contributions/11688/)
 
@@ -44,7 +44,7 @@ University of Illinois at Urbana-Champaign
 .kol-1-4.center[
 .circle.width-80[![Liz](figures/collaborators/sexton.jpg)]
 
-[Elizabeth Sexton](https://computing.fnal.gov/liz-sexton-kennedy/)
+[Elizabeth Sexton-Kennedy](https://computing.fnal.gov/liz-sexton-kennedy/)
 
 FNAL
 ]
