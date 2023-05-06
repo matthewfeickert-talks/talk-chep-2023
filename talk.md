@@ -35,61 +35,55 @@ May 8th, 2023
 ]
 
 ---
-# Importance of Software Citation
+# Principles of Software Citation
 
-.large[
-.kol-1-3[
-* .blue[Point A] 🎉
-* .red[Point B] 🌐
-* .bold[Point C] 🚀
+.kol-1-3.large[
+As established by [FORCE11 Software Citation working group](https://force11.org/group/software-citation-working-group/)
+
+1. Importance
+2. Credit and Attribution
+3. Unique Identification
+4. Persistence
+5. Accessibility
+6. Specificity
 ]
-.kol-2-3[
+.kol-2-3.huge[
 .center.width-90[[![software-citation-data-cite](figures/software-citation-data-cite.png)](https://support.datacite.org/docs/software-citation)]
 .center[[Software Citation Principles](https://support.datacite.org/docs/software-citation), Credit: Data Cite]
-]
 ]
 
 ---
 # Current State of Software Citation
 
-.large[
 .kol-1-3[
-.bold[Currently have]
-* Software citation principles
-* Policies from publishers
-* Tooling
-* Beginning of movement among developers, paper authors, journal reviewers and editors
+.bold.huge[Currently have]
+.large[
+* Software citation _principles_
+* _Policies_ from publishers
+* Modern open source _tooling_
+* Beginning of _movement_ among developers, paper authors, journal reviewers and editors
 ]
-.kol-2-3[
+]
+.kol-2-3.huge[
 .center.width-90[[![software-citation-data-cite](figures/software-citation-data-cite.png)](https://support.datacite.org/docs/software-citation)]
 .center[[Software Citation Principles](https://support.datacite.org/docs/software-citation), Credit: Data Cite]
 ]
-]
 
 ---
-# Current State of Software Citation in HEP: ATLAS
+# Current State of Software Citation in HEP: <br>ATLAS & CMS
 
 .huge[
 .kol-1-2[
+.bold.center[ATLAS]
+
 * Use a "catch-all" citation for ATLAS software tools
 * For statistical analysis and ML generally cite the papers for the methods, but not the tools and software
    - Have seen some changes when the tools explicitly ask to be cited
 ]
 .kol-1-2[
-X
-]
-]
-
----
-# Current State of Software Citation in HEP: CMS
-
-.huge[
-.kol-1-2[
+.bold.center[CMS]
 * Endorses large CMS software projects having peer reviewed papers that would be cited in physics papers
 * Have expressed positive views on additional papers being written and published
-]
-.kol-1-2[
-X
 ]
 ]
 
@@ -98,7 +92,7 @@ X
 
 .huge[
 .kol-1-2[
-* Following recommendations of Daniel Katz's CHEP 2018 presentation
+* Following recommendations of [Daniel Katz's CHEP 2018 presentation](https://indico.cern.ch/event/587955/contributions/3012261/)
 * Most papers aim to cite all high-level software used in the analysis
    - Cite the software, and if there's a paper for the software cite that too
 * Analysts are still adopting this habit and need reminding
