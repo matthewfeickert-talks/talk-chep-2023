@@ -6,6 +6,8 @@ count: false
 .large[(University of Wisconsin-Madison)]
 <br>
 [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch)
+<br>
+Daniel Katz, Mark Neubauer, Elizabeth Sexton, Graeme Stewart
 
 [International Conference on Computing in High Energy and Nuclear Physics (CHEP) 2023](https://indico.jlab.org/event/459/contributions/11688/)
 
