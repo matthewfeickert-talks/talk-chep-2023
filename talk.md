@@ -276,17 +276,11 @@ date-released: 2021-08-11
 ---
 # Summary
 
-.kol-2-3[
-- .large[.bold[Important] points]
-   * sub points!
-   * and more
-   * Workshop report coming to arXiv soon
-]
-.kol-1-3[
-<br>
-<br>
-<br>
-.center.width-100[[![example_logo](assets/logos/logo_IRIS-HEP.png)](https://iris-hep.org/)]
+.huge[
+* Software citation is an ongoing process that is not always straightforward (for any scientific field)
+* Differing community processes and standards exist in HEP
+* HEP historically has engaged in software citation
+* With modern tools and standards have the opportunity to .bold[expand and standardize]
 ]
 
 ---
