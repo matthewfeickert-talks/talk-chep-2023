@@ -100,6 +100,10 @@ body {
     bottom: 2em;
 }
 
+.code-tiny-tiny {
+    font-size: 0.4em;
+}
+
 .code-tiny {
     font-size: 0.5em;
 }

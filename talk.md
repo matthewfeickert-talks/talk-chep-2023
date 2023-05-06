@@ -14,11 +14,9 @@ May 8th, 2023
 ---
 # Talk Overview
 
-.large[
-* .bold[Time]: 10 minutes talk + 5 minutes questions
-* .bold[Notes from organizers]:
-   - Abstract: In November 2022, the HEP Software Foundation (HSF) and the Institute for Research and Innovation for Software in High-Energy Physics (IRIS-HEP) organized a workshop on the topic of "Software Citation and Recognition in HEP". The goal of the workshop was to bring together different types of stakeholders whose roles relate to software citation and the associated credit it provides, in order to engage the community in a discussion of: 1) the ways in which HEP experiments handle citation of software; 2) recognition for software efforts that enable physics results disseminated to the public; and 3) how the scholarly publishing ecosystem supports these activities. We heard from the publication board leadership of ATLAS, CMS, and LHCb in order to understand the current practice of these experiments; various open source community organizations (ROOT, Scikit-HEP, MCnet) discussed how they prefer their software to be cited; talks from publishers (Elsevier, JOSS) recognized the issue and showed an openness to following the wishes of the community; and discussions with tool providers (INSPIRE, Zenodo) covered new standards and tools for citation. The workshop made a number of tensions clear, for example between citations being used for credit and for reproducibility, and between supporting the immediate (and possibly contradictory) desires of software producers that lead to credit in today's culture and actions that might positively change the culture to better recognize the work of these developers. This talk will present highlights from the workshop as well as findings and recommendations documented in the workshop report.
-]
+* .bold[Time]: 12 minutes talk + 3 minutes questions
+* .bold[Abstract]:
+   In November 2022, the HEP Software Foundation (HSF) and the Institute for Research and Innovation for Software in High-Energy Physics (IRIS-HEP) organized a workshop on the topic of "Software Citation and Recognition in HEP". The goal of the workshop was to bring together different types of stakeholders whose roles relate to software citation and the associated credit it provides, in order to engage the community in a discussion of: 1) the ways in which HEP experiments handle citation of software; 2) recognition for software efforts that enable physics results disseminated to the public; and 3) how the scholarly publishing ecosystem supports these activities. We heard from the publication board leadership of ATLAS, CMS, and LHCb in order to understand the current practice of these experiments; various open source community organizations (ROOT, Scikit-HEP, MCnet) discussed how they prefer their software to be cited; talks from publishers (Elsevier, JOSS) recognized the issue and showed an openness to following the wishes of the community; and discussions with tool providers (INSPIRE, Zenodo) covered new standards and tools for citation. The workshop made a number of tensions clear, for example between citations being used for credit and for reproducibility, and between supporting the immediate (and possibly contradictory) desires of software producers that lead to credit in today's culture and actions that might positively change the culture to better recognize the work of these developers. This talk will present highlights from the workshop as well as findings and recommendations documented in the workshop report.
 
 ---
 # Software Citation and Recognition Workshop
@@ -129,13 +127,29 @@ X
 ---
 # Recommendations: Historical retrospective
 
-.kol-1-2.large[
-* Software in the field seeking citations would indicate this with runtime banners
-* Conventions around software citation were not firmly established in the broader scientific computing community
-   - Add quote from David Kirkby here
-* Interrupting user logs is now recommended against given modern tooling and best practices
+.grid[
+.kol-3-5.large[
+* Software in the field might advertise citation/copyright information with runtime banners
+* Conventions were not firmly established in the broader scientific computing community
+<br>
+.center.width-100[[![kirkby-github-comment](figures/kirkby-github-comment.png)](https://github.com/root-project/root/issues/9954#issuecomment-1049023607)]
+* Interrupting user logs is now .bold[avoided] given modern tooling. .bold[Consider using APIs].
+.kol-1-2.smaller[
+```console
+# CLI API
+$ mytool --citation
+$ mytool --cite
+```
 ]
-.kol-1-2.code-tiny[
+.kol-1-2.smaller[
+```python
+# Python API
+import mytool
+mytool.utils.citation()
+```
+]
+]
+.kol-2-5.code-tiny-tiny[
 ```
 #--------------------------------------------------------------------------
 #                         FastJet release 3.4.0
@@ -181,46 +195,20 @@ ___
  |  |                                                                              |  |
  |  |   The main physics reference is the 'PYTHIA 6.4 Physics and Manual',         |  |
  |  |   T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026 [hep-ph/0603175]  |  |
+ |  |                                                                              |  |
+ |  |   An archive of program versions and documentation is found on the web:      |  |
+ |  |   http://www.thep.lu.se/Pythia                                               |  |
+ |  |                                                                              |  |
+ |  |   This program is released under the GNU General Public Licence version 2.   |  |
+ |  |   Please respect the MCnet Guidelines for Event Generator Authors and Users. |  |
+ |  |                                                                              |  |
  ...
 ```
 ]
-
----
-# Recommendations: Modern Tooling
-
-.large[
-* .blue[Point A] 🎉
-* .red[Point B] 🌐
-* .bold[Point C] 🚀
 ]
 
 ---
-# Recommendations: Best Practices
-
-.large[
-* .blue[Point A] 🎉
-* .red[Point B] 🌐
-* .bold[Point C] 🚀
-]
-
----
-# Make clear how to cite in documentation
-
-.kol-1-2.large[
-- The easiest, but least robust way: If you have a particular citation that you want people to use, put it .bold[everywhere]
-   - Version control repository README
-   - Online software documentation (landing page, how to cite page)
-   - Package distribution websites (e.g. PyPI)
-- Having single source of truth for citations: version control repository that all other sources derive from.
-- Make your citation preferences clear to the world and SEO. Do not rely on people emailing to ask (they shouldn't have to).
-]
-.kol-1-2[
-.center.width-100[[![pyhf-citation-request](figures/pyhf-citation-request.png)](https://pyhf.readthedocs.io/en/stable/citations.html)]
-.center[[pyhf's "Use and Citations" page in documentation](https://pyhf.readthedocs.io/en/stable/citations.html)]
-]
-
----
-# CITATION.cff
+# Recommendations: CITATION.cff
 
 .kol-3-5.large[
 - Adopt the [Citation File Format](https://citation-file-format.github.io/) as a common standard and add a `CITATION.cff` to project repository
@@ -260,6 +248,55 @@ date-released: 2021-08-11
 ]
 
 ---
+# Recommendations: Zenodo
+.center.huge[Versioned archival of .bold[everything]: code, documents, data products, data sets]
+
+.kol-1-2[
+.center.width-100[[![zenodo-landing-page](figures/zenodo-landing-page.png)](https://zenodo.org/)]
+.center[DOI for project and each version]
+]
+.kol-1-2[
+.center.width-65[[![why_use_zenodo](figures/why_use_zenodo.png)](https://zenodo.org/)]
+]
+
+---
+# Recommendations: Make clear how to cite in docs
+
+.kol-1-2.large[
+- The easiest, but least robust way: If you have a particular citation that you want people to use, put it .bold[everywhere]
+   - Version control repository README
+   - Online software documentation (landing page, how to cite page)
+   - Package distribution websites (e.g. PyPI)
+- Having single source of truth for citations: version control repository that all other sources derive from.
+- Make your citation preferences clear to the world and SEO. Do not rely on people emailing to ask (they shouldn't have to).
+]
+.kol-1-2[
+.center.width-100[[![pyhf-citation-request](figures/pyhf-citation-request.png)](https://pyhf.readthedocs.io/en/stable/citations.html)]
+.center[[pyhf's "Use and Citations" page in documentation](https://pyhf.readthedocs.io/en/stable/citations.html)]
+]
+
+---
+# Summary
+
+.kol-2-3[
+- .large[.bold[Important] points]
+   * sub points!
+   * and more
+   * Workshop report coming to arXiv soon
+]
+.kol-1-3[
+<br>
+<br>
+<br>
+.center.width-100[[![example_logo](assets/logos/logo_IRIS-HEP.png)](https://iris-hep.org/)]
+]
+
+---
+class: end-slide, center
+
+Backup
+
+---
 # CITATION.cff: How to keep up to date?
 
 .large[
@@ -287,19 +324,6 @@ url: "https://mylibrary.readthedocs.io/en/v1.2.3/"
 ]
 
 ---
-# Zenodo
-
-.kol-1-2[
-.center.width-100[[![zenodo-landing-page](figures/zenodo-landing-page.png)](https://zenodo.org/)]
-
-- Open source (but your files can be closed access)
-- Versioned archival of everything: code, documents, data products, data sets
-]
-.kol-1-2[
-.center.width-75[[![why_use_zenodo](figures/why_use_zenodo.png)](https://zenodo.org/)]
-]
-
----
 # Zenodo: DOI minting made easy
 
 - Everything on Zenodo has a DOI
@@ -324,84 +348,6 @@ url: "https://mylibrary.readthedocs.io/en/v1.2.3/"
 .kol-1-2[
 .center.width-110[[![pyhf-zenodo-page](figures/pyhf-zenodo-page.png)](https://zenodo.org/record/7110486)]
 ]
-
----
-# Zenodo: Communities allow archival collections
-
-.kol-1-2[
-.center.width-100[[![Zenodo_communities_PyHEP](figures/Zenodo_communities_PyHEP.png)](https://zenodo.org/communities/?p=PyHEP)]
-]
-.kol-1-2[
-<br>
-.center.width-100[[![Zenodo_communities_ATLAS](figures/Zenodo_communities_ATLAS.png)](https://zenodo.org/communities/atlas_experiment/)]
-]
-
----
-# Proving a citation information from APIs
-
-.kol-2-3.large[
-- In addition to providing standard formats, providing users a language API or CLI API to get the citation information for the version of the tool is helpful
-   - User doesn't have to check if the information they find online matches their version.
-- Historically, this was done by printing a banner with citation or copyright information when the library is used
-   - This should .bold[not] be done now. This creates noise for users and if multiple tools did this your terminal would get filled.
-   - Most libraries that used to do this have now abandoned this approach.
-- Opinion: There are tools in broader scientific ecosystem that provide citation information for their dependencies as well. While very conscientious, I think this is .bold[unnecessary] and can be confusing to users.
-]
-.kol-1-3[
-<br><br>
-```console
-# CLI API
-$ mytool --citation
-$ mytool --cite
-```
-```python
-# Python API
-import mytool
-mytool.utils.citation()
-```
-.center.large[Example APIs]
-]
-
-
----
-# Outlook
-
-.large[
-* .blue[Point A] 🎉
-* .red[Point B] 🌐
-* .bold[Point C] 🚀
-]
-
----
-# Example Slide
-
-.large[
-* .blue[Point A] 🎉
-* .red[Point B] 🌐
-* .bold[Point C] 🚀
-]
-
----
-# Summary
-
-.kol-2-3[
-- .large[.bold[Important] points]
-   * sub points!
-   * and more
-   * Workshop report coming to arXiv soon
-]
-.kol-1-3[
-<br>
-<br>
-<br>
-.center.width-100[[![example_logo](assets/logos/logo_IRIS-HEP.png)](https://iris-hep.org/)]
-]
-
----
-class: end-slide, center
-
-Backup
-
 
 ---
 
