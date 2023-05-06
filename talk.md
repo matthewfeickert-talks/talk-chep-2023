@@ -102,8 +102,11 @@ X
 
 .huge[
 .kol-1-2[
-* Comparatively more progressive
-   - "We should cite software more"
+* Following recommendations of Daniel Katz's CHEP 2018 presentation
+* Most papers aim to cite all high-level software used in the analysis
+   - Cite the software, and if there's a paper for the software cite that too
+* Analysts are still adopting this habit and need reminding
+   - Though open to idea: "We should cite software more"
 ]
 .kol-1-2[
 .center.width-55[[![lhcb-citation-template](figures/lhcb-citation-template.png)](https://XXXXXXXXXXXXXXXXXX)]
