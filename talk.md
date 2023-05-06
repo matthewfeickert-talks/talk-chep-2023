@@ -256,7 +256,7 @@ date-released: 2021-08-11
 
 ---
 # Recommendations: Zenodo
-.center.huge[Versioned archival of .bold[everything]: code, documents, data products, data sets]
+.center.huge[Versioned archive of .bold[everything]: code, documents, data products, data sets]
 
 .kol-1-2[
 .center.width-100[[![zenodo-landing-page](figures/zenodo-landing-page.png)](https://zenodo.org/)]
