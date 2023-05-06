@@ -64,13 +64,6 @@ May 8th, 2023
 ]
 
 ---
-# Current State of Software Citation in HEP
-
-.large[
-* Historical
-]
-
----
 # Current State of Software Citation in HEP: ATLAS
 
 .huge[
@@ -128,6 +121,65 @@ X
 * .blue[Point A] 🎉
 * .red[Point B] 🌐
 * .bold[Point C] 🚀
+]
+
+---
+# Recommendations: Historical retrospective
+
+.kol-1-2.large[
+* Software in the field seeking citations would indicate this with runtime banners
+* Conventions around software citation were not firmly established in the broader scientific computing community
+   - Add quote from David Kirkby here
+* Interrupting user logs is now recommended against given modern tooling and best practices
+]
+.kol-1-2.code-tiny[
+```
+#--------------------------------------------------------------------------
+#                         FastJet release 3.4.0
+#                 M. Cacciari, G.P. Salam and G. Soyez
+#     A software package for jet finding and analysis at colliders
+#                           http://fastjet.fr
+#
+# Please cite EPJC72(2012)1896 [arXiv:1111.6097] if you use this package
+# for scientific work and optionally PLB641(2006)57 [hep-ph/0512210].
+#
+# FastJet is provided without warranty under the GNU GPL v2 or higher.
+# It uses T. Chan's closest pair algorithm, S. Fortune's Voronoi code,
+# CGAL and 3rd party plugin jet algorithms. See COPYING file for details.
+#--------------------------------------------------------------------------
+```
+
+___
+
+```
+RooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+```
+
+___
+
+```
+ *------------------------------------------------------------------------------------*
+ |                                                                                    |
+ |  *------------------------------------------------------------------------------*  |
+ |  |                                                                              |  |
+ |  |                                                                              |  |
+ |  |   PPP   Y   Y  TTTTT  H   H  III    A      Welcome to the Lund Monte Carlo!  |  |
+ |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.230      |  |
+ |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change:  6 Oct 2017  |  |
+ |  |   P       Y      T    H   H   I   A   A                                      |  |
+ |  |   P       Y      T    H   H  III  A   A    Now is 06 May 2023 at 01:12:28    |  |
+ |  |                                                                              |  |
+ ...
+ |  |   The main program reference is 'An Introduction to PYTHIA 8.2',             |  |
+ |  |   T. Sjostrand et al, Comput. Phys. Commun. 191 (2015) 159                   |  |
+ |  |   [arXiv:1410.3012 [hep-ph]]                                                 |  |
+ |  |                                                                              |  |
+ |  |   The main physics reference is the 'PYTHIA 6.4 Physics and Manual',         |  |
+ |  |   T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026 [hep-ph/0603175]  |  |
+ ...
+```
 ]
 
 ---
