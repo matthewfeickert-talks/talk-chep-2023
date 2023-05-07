@@ -54,7 +54,7 @@ CERN
 # Software Citation and Recognition Workshop
 
 .huge[
-* [2022 IRIS-HEP Blueprint Process Workshop](https://indico.cern.ch/event/1211229/)
+* [2022 HSF/IRIS-HEP Blueprint Process Workshop](https://indico.cern.ch/event/1211229/)
 <br>
 <br>
 .italic[This meeting aims to provide a community discussion around ways in which HEP .bold[experiments handle citation of software] and .bold[recognition for software efforts] that enable physics results disseminated to the public.]
@@ -65,6 +65,10 @@ CERN
    - .bold[Software project communities]: ROOT Team, Scikit-HEP, MCnet, IRIS-HEP
    - .bold[Publishers]: INSPIRE, Elsevier, Journal of Open Source Software (JOSS)
 ]
+
+___
+
+.smaller[This work was supported by the National Science Foundation under Cooperative Agreement OAC-1836650. [![NSF-1836650](https://img.shields.io/badge/NSF-1836650-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1836650)]
 
 ---
 # Principles of Software Citation
@@ -317,7 +321,7 @@ date-released: 2021-08-11
 ---
 # Summary
 
-.huge-cite[
+.huge[
 * Software citation is an .bold[ongoing process] that is not straightforward (for any scientific field)
 * Differing community .bold[processes and standards] exist in HEP (we've never been homogeneous)
 * HEP historically has engaged in software citation
@@ -325,10 +329,6 @@ date-released: 2021-08-11
 * With modern tools and standards have the opportunity to .bold[expand and standardize]
 * Final summary paper from workshop forthcoming
 ]
-
-___
-
-.smaller[This work was supported by the National Science Foundation under Cooperative Agreement OAC-1836650. [![NSF-1836650](https://img.shields.io/badge/NSF-1836650-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1836650)]
 
 ---
 class: end-slide, center
