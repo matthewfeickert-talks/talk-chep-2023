@@ -160,7 +160,7 @@ As established by [FORCE11 Software Citation working group](https://force11.org/
 # Recommendations from Journals and Publishers
 .huge[
 * .bold[INSPIRE]
-   - INSPIRE currently handles software .bold[papers], but has plans to add support for Data and Software records
+   - Currently handles software .bold[papers], but has plans to add support for .bold[Data and Software]
    - Citations would be tracked and counted .bold[by DOI]
 * .bold[Elsevier]
    - .bold[Community needs to reach consensus] on how to cite software, and share outcome with Publishers (won't take lead)
