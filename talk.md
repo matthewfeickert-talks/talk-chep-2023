@@ -313,7 +313,7 @@ date-released: 2021-08-11
    - Version control repository README
    - Online software documentation (landing page, how to cite page)
    - Package distribution websites (e.g. PyPI)
-- Having single source of truth for citations: version control repository that all other sources derive from.
+- Have single source of truth for citations: version control repository that all other sources derive from.
 - Make your citation preferences clear to the world and SEO. Do not rely on people emailing to ask (they shouldn't have to).
 ]
 .kol-1-2[
@@ -337,6 +337,34 @@ date-released: 2021-08-11
 class: end-slide, center
 
 Backup
+
+---
+# CITATION.cff: Which DOIs?
+
+See valid `CITATION.cff` in talk repository (`examples/CITATION.cff`):
+
+.smaller[
+```yaml
+cff-version: 1.2.0
+message: "Please cite the following works when using this software."
+type: software
+authors:
+- family-names: "Feickert"
+  given-names: "Matthew"
+  orcid: "https://orcid.org/0000-0003-4124-7862"
+  affiliation: "University of Wisconsin-Madison"
+title: "mylibrary: v1.2.3"
+version: 1.2.3
+# This is the _project_ DOI ("cite all versions" DOI on Zenodo page)
+doi: 10.5281/zenodo.1234567
+repository-code: "https://github.com/matthewfeickert/mylibrary/releases/tag/v1.2.3"
+url: "https://mylibrary.readthedocs.io/en/v1.2.3/"
+keywords:
+  - example
+  - software
+license: "Apache-2.0"
+```
+]
 
 ---
 # CITATION.cff: How to keep up to date?
