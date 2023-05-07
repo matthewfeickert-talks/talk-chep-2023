@@ -42,7 +42,7 @@ University of Illinois at Urbana-Champaign/NCSA
 University of Illinois at Urbana-Champaign
 ]
 .kol-1-4.center[
-.circle.width-80[![Liz](figures/collaborators/sexton.jpg)]
+.circle.width-80[![Liz](figures/collaborators/sexton-kennedy.jpg)]
 
 [Elizabeth Sexton-Kennedy](https://computing.fnal.gov/liz-sexton-kennedy/)
 
