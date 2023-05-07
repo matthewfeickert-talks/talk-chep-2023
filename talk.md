@@ -324,7 +324,7 @@ date-released: 2021-08-11
 ---
 # Summary
 
-.huge[
+.huge-cite[
 * Software citation is an .bold[ongoing process] that is not straightforward (for any scientific field)
 * Differing community .bold[processes and standards] exist in HEP (we've never been homogeneous)
 * HEP historically has engaged in software citation
@@ -332,6 +332,10 @@ date-released: 2021-08-11
 * With modern tools and standards have the opportunity to .bold[expand and standardize]
 * Final summary paper from workshop forthcoming
 ]
+
+___
+
+.smaller[This work was supported by the National Science Foundation under Cooperative Agreement OAC-1836650. [![NSF-1836650](https://img.shields.io/badge/NSF-1836650-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1836650)]
 
 ---
 class: end-slide, center
