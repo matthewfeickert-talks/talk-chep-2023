@@ -341,7 +341,9 @@ Backup
 ---
 # CITATION.cff: Which DOIs?
 
-See valid `CITATION.cff` in talk repository (`examples/CITATION.cff`):
+Personal choice, but given specific release DOIs are generated .italic[after] the release is made to have the versioned and distributed `CITATION.cff` be correct at release would recommend the Zenodo project level ("cite all versions") DOI.
+
+See valid `CITATION.cff` in talk repository ([`examples/CITATION.cff`](https://github.com/matthewfeickert-talks/talk-chep-2023/blob/main/examples/CITATION.cff)):
 
 .smaller[
 ```yaml
