@@ -359,7 +359,7 @@ title: "mylibrary: v1.2.3"
 version: 1.2.3
 # This is the _project_ DOI ("cite all versions" DOI on Zenodo page)
 doi: 10.5281/zenodo.1234567
-repository-code: "https://github.com/matthewfeickert/mylibrary/releases/tag/v1.2.3"
+repository-code: "https://github.com/myorg/mylibrary/releases/tag/v1.2.3"
 url: "https://mylibrary.readthedocs.io/en/v1.2.3/"
 keywords:
   - example
