@@ -74,7 +74,7 @@ ___
 # Principles of Software Citation
 
 .kol-1-3.large[
-As established by [FORCE11 Software Citation working group](https://force11.org/group/software-citation-working-group/) (2016)
+As established by [FORCE11 Software Citation working group](https://force11.org/group/software-citation-working-group/) ([2016](https://force11.org/info/software-citation-principles-published-2016/), [![force11-doi](https://img.shields.io/badge/DOI-10.7717%2Fpeerj--cs.86-blue.svg)](https://doi.org/10.7717/peerj-cs.86))
 
 1. Importance
 2. Credit and Attribution
