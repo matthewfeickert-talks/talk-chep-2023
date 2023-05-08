@@ -25,7 +25,7 @@ May 8th, 2023
 
 [Daniel Katz](https://danielskatz.org/)
 
-University of Illinois at Urbana-Champaign/NCSA
+University of Illinois at Urbana-Champaign/<br>NCSA
 ]
 .kol-1-4.center[
 .circle.width-95[![Mark](figures/collaborators/neubauer.png)]
@@ -37,7 +37,7 @@ University of Illinois at Urbana-Champaign
 .kol-1-4.center[
 .circle.width-80[![Liz](figures/collaborators/sexton-kennedy.jpg)]
 
-[Elizabeth Sexton-Kennedy](https://computing.fnal.gov/liz-sexton-kennedy/)
+[Elizabeth<br>Sexton-Kennedy](https://computing.fnal.gov/liz-sexton-kennedy/)
 
 FNAL
 ]
