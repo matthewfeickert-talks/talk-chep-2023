@@ -311,7 +311,7 @@ date-released: 2021-08-11
    - Online software documentation (landing page, how to cite page)
    - Package distribution websites (e.g. PyPI)
 - Have .bold[single source of truth] for citations: version control repository that all other sources derive from.
-- Make your citation preferences clear to the world and SEO. Do not rely on people emailing to ask (they shouldn't have to).
+- Make your .bold[citation preferences clear] to the world and SEO. Do not rely on people emailing to ask (they shouldn't have to).
 ]
 .kol-1-2[
 .center.width-100[[![pyhf-citation-request](figures/pyhf-citation-request.png)](https://pyhf.readthedocs.io/en/stable/citations.html)]
