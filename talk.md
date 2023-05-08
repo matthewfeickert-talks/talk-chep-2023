@@ -320,7 +320,7 @@ date-released: 2021-08-11
 ]
 
 ---
-# Revisiting Software Citation Principles
+# Revisiting Software Citation Principles in HEP
 
 .large[
 * .bold.large[Importance:] As a field HEP understands software is important, but improvements could be made on views towards research products
