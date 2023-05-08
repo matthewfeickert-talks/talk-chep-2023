@@ -92,7 +92,7 @@ As established by [FORCE11 Software Citation working group](https://force11.org/
 # Current State of Software Citation
 
 .kol-1-3[
-.bold.huge[Currently have]
+.huge[.bold[Currently have]<br>(in 2023)]
 .large[
 * Software citation _principles_
 * _Policies_ from publishers
