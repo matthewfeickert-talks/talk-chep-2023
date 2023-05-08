@@ -6,23 +6,55 @@ count: false
 .large[(University of Wisconsin-Madison)]
 <br>
 [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch)
+<br>
+Daniel Katz, Mark Neubauer, Elizabeth Sexton-Kennedy, Graeme Stewart
 
 [International Conference on Computing in High Energy and Nuclear Physics (CHEP) 2023](https://indico.jlab.org/event/459/contributions/11688/)
 
 May 8th, 2023
 
 ---
-# Talk Overview [to remove]
+# Co-conveners
 
-* .bold[Time]: 12 minutes talk + 3 minutes questions
-* .bold[Abstract]:
-   In November 2022, the HEP Software Foundation (HSF) and the Institute for Research and Innovation for Software in High-Energy Physics (IRIS-HEP) organized a workshop on the topic of "Software Citation and Recognition in HEP". The goal of the workshop was to bring together different types of stakeholders whose roles relate to software citation and the associated credit it provides, in order to engage the community in a discussion of: 1) the ways in which HEP experiments handle citation of software; 2) recognition for software efforts that enable physics results disseminated to the public; and 3) how the scholarly publishing ecosystem supports these activities. We heard from the publication board leadership of ATLAS, CMS, and LHCb in order to understand the current practice of these experiments; various open source community organizations (ROOT, Scikit-HEP, MCnet) discussed how they prefer their software to be cited; talks from publishers (Elsevier, JOSS) recognized the issue and showed an openness to following the wishes of the community; and discussions with tool providers (INSPIRE, Zenodo) covered new standards and tools for citation. The workshop made a number of tensions clear, for example between citations being used for credit and for reproducibility, and between supporting the immediate (and possibly contradictory) desires of software producers that lead to credit in today's culture and actions that might positively change the culture to better recognize the work of these developers. This talk will present highlights from the workshop as well as findings and recommendations documented in the workshop report.
+<br>
+
+.grid[
+.kol-1-4.center[
+<!-- https://avatars.githubusercontent.com/u/2913845?v=4 -->
+.circle.width-90[![Daniel](figures/collaborators/katz.jpg)]
+
+[Daniel Katz](https://danielskatz.org/)
+
+University of Illinois at Urbana-Champaign/NCSA
+]
+.kol-1-4.center[
+.circle.width-95[![Mark](figures/collaborators/neubauer.png)]
+
+[Mark Neubauer](https://www.marksneubauer.com/)
+
+University of Illinois at Urbana-Champaign
+]
+.kol-1-4.center[
+.circle.width-80[![Liz](figures/collaborators/sexton-kennedy.jpg)]
+
+[Elizabeth Sexton-Kennedy](https://computing.fnal.gov/liz-sexton-kennedy/)
+
+FNAL
+]
+.kol-1-4.center[
+.circle.width-85[![Graeme](figures/collaborators/stewart.png)]
+
+[Graeme Stewart](https://ep-rnd.web.cern.ch/person/graeme-stewart)
+
+CERN
+]
+]
 
 ---
 # Software Citation and Recognition Workshop
 
 .huge[
-* [2022 IRIS-HEP Blueprint Process Workshop](https://indico.cern.ch/event/1211229/)
+* [2022 HSF/IRIS-HEP Blueprint Process Workshop](https://indico.cern.ch/event/1211229/)
 <br>
 <br>
 .italic[This meeting aims to provide a community discussion around ways in which HEP .bold[experiments handle citation of software] and .bold[recognition for software efforts] that enable physics results disseminated to the public.]
@@ -31,14 +63,18 @@ May 8th, 2023
 * Had representation from:
    - .bold[Experiments]: ATLAS, CMS, LHCb
    - .bold[Software project communities]: ROOT Team, Scikit-HEP, MCnet, IRIS-HEP
-   - .bold[Publishers]: Elsevier, Journal of Open Source Software (JOSS)
+   - .bold[Publishers]: INSPIRE, Elsevier, Journal of Open Source Software (JOSS)
 ]
+
+___
+
+.smaller[This work was supported by the National Science Foundation under Cooperative Agreement OAC-1836650. [![NSF-1836650](https://img.shields.io/badge/NSF-1836650-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1836650)]
 
 ---
 # Principles of Software Citation
 
 .kol-1-3.large[
-As established by [FORCE11 Software Citation working group](https://force11.org/group/software-citation-working-group/)
+As established by [FORCE11 Software Citation working group](https://force11.org/group/software-citation-working-group/) ([2016](https://force11.org/info/software-citation-principles-published-2016/), [![force11-doi](https://img.shields.io/badge/DOI-10.7717%2Fpeerj--cs.86-blue.svg)](https://doi.org/10.7717/peerj-cs.86))
 
 1. Importance
 2. Credit and Attribution
@@ -48,8 +84,8 @@ As established by [FORCE11 Software Citation working group](https://force11.org/
 6. Specificity
 ]
 .kol-2-3.huge[
-.center.width-90[[![software-citation-data-cite](figures/software-citation-data-cite.png)](https://support.datacite.org/docs/software-citation)]
-.center[[Software Citation Principles](https://support.datacite.org/docs/software-citation), Credit: Data Cite]
+.center.width-85[[![software-citation-data-cite](figures/software-citation-data-cite.png)](https://support.datacite.org/docs/software-citation)]
+.center[[Software Citation Principles](https://support.datacite.org/docs/software-citation)<br>image credit: Data Cite]
 ]
 
 ---
@@ -65,8 +101,8 @@ As established by [FORCE11 Software Citation working group](https://force11.org/
 ]
 ]
 .kol-2-3.huge[
-.center.width-90[[![software-citation-data-cite](figures/software-citation-data-cite.png)](https://support.datacite.org/docs/software-citation)]
-.center[[Software Citation Principles](https://support.datacite.org/docs/software-citation), Credit: Data Cite]
+.center.width-85[[![software-citation-data-cite](figures/software-citation-data-cite.png)](https://support.datacite.org/docs/software-citation)]
+.center[[Software Citation Principles](https://support.datacite.org/docs/software-citation)<br>image credit: Data Cite]
 ]
 
 ---
@@ -121,7 +157,7 @@ As established by [FORCE11 Software Citation working group](https://force11.org/
 # Recommendations from Journals and Publishers
 .huge[
 * .bold[INSPIRE]
-   - INSPIRE currently handles software .bold[papers], but has plans to add support for Data and Software records
+   - Currently handles software .bold[papers], but has plans to add support for .bold[Data and Software]
    - Citations would be tracked and counted .bold[by DOI]
 * .bold[Elsevier]
    - .bold[Community needs to reach consensus] on how to cite software, and share outcome with Publishers (won't take lead)
@@ -256,7 +292,7 @@ date-released: 2021-08-11
 
 ---
 # Recommendations: Zenodo
-.center.huge[Versioned archival of .bold[everything]: code, documents, data products, data sets]
+.center.huge[Versioned archive of .bold[everything]: code, documents, data products, data sets]
 
 .kol-1-2[
 .center.width-100[[![zenodo-landing-page](figures/zenodo-landing-page.png)](https://zenodo.org/)]
@@ -274,7 +310,7 @@ date-released: 2021-08-11
    - Version control repository README
    - Online software documentation (landing page, how to cite page)
    - Package distribution websites (e.g. PyPI)
-- Having single source of truth for citations: version control repository that all other sources derive from.
+- Have single source of truth for citations: version control repository that all other sources derive from.
 - Make your citation preferences clear to the world and SEO. Do not rely on people emailing to ask (they shouldn't have to).
 ]
 .kol-1-2[
@@ -286,10 +322,10 @@ date-released: 2021-08-11
 # Summary
 
 .huge[
-* Software citation is an ongoing process that programmaticys straightforward (for any scientific field)
-* Differing community processes and standards exist in HEP
+* Software citation is an .bold[ongoing process] that is not straightforward (for any scientific field)
+* Differing community .bold[processes and standards] exist in HEP (we've never been homogeneous)
 * HEP historically has engaged in software citation
-* Agreement that more citation is probably useful and programatic discovery of citations is important
+* Agreement that more citation is probably useful and .bold[programatic discovery] of citations is important
 * With modern tools and standards have the opportunity to .bold[expand and standardize]
 * Final summary paper from workshop forthcoming
 ]
@@ -298,6 +334,36 @@ date-released: 2021-08-11
 class: end-slide, center
 
 Backup
+
+---
+# CITATION.cff: Which DOIs?
+
+Personal choice, but given specific release DOIs are generated .italic[after] the release is made to have the versioned and distributed `CITATION.cff` be correct at release would recommend the Zenodo project level ("cite all versions") DOI.
+
+See valid `CITATION.cff` in talk repository ([`examples/CITATION.cff`](https://github.com/matthewfeickert-talks/talk-chep-2023/blob/main/examples/CITATION.cff)):
+
+.smaller[
+```yaml
+cff-version: 1.2.0
+message: "Please cite the following works when using this software."
+type: software
+authors:
+- family-names: "Feickert"
+  given-names: "Matthew"
+  orcid: "https://orcid.org/0000-0003-4124-7862"
+  affiliation: "University of Wisconsin-Madison"
+title: "mylibrary: v1.2.3"
+version: 1.2.3
+# This is the _project_ DOI ("cite all versions" DOI on Zenodo page)
+doi: 10.5281/zenodo.1234567
+repository-code: "https://github.com/myorg/mylibrary/releases/tag/v1.2.3"
+url: "https://mylibrary.readthedocs.io/en/v1.2.3/"
+keywords:
+  - example
+  - software
+license: "Apache-2.0"
+```
+]
 
 ---
 # CITATION.cff: How to keep up to date?
