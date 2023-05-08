@@ -25,7 +25,7 @@ May 8th, 2023
 
 [Daniel Katz](https://danielskatz.org/)
 
-University of Illinois at Urbana-Champaign/NCSA
+University of Illinois at Urbana-Champaign/<br>NCSA
 ]
 .kol-1-4.center[
 .circle.width-95[![Mark](figures/collaborators/neubauer.png)]
@@ -37,7 +37,7 @@ University of Illinois at Urbana-Champaign
 .kol-1-4.center[
 .circle.width-80[![Liz](figures/collaborators/sexton-kennedy.jpg)]
 
-[Elizabeth Sexton-Kennedy](https://computing.fnal.gov/liz-sexton-kennedy/)
+[Elizabeth<br>Sexton-Kennedy](https://computing.fnal.gov/liz-sexton-kennedy/)
 
 FNAL
 ]
@@ -92,7 +92,7 @@ As established by [FORCE11 Software Citation working group](https://force11.org/
 # Current State of Software Citation
 
 .kol-1-3[
-.bold.huge[Currently have]
+.huge[.bold[Currently have]<br>(in 2023)]
 .large[
 * Software citation _principles_
 * _Policies_ from publishers
@@ -147,8 +147,8 @@ As established by [FORCE11 Software Citation working group](https://force11.org/
 * Community views vary widely
    - .bold[ROOT team]: Explicitly not interested in software citation .italic[[for ROOT](https://indico.cern.ch/event/1211229/contributions/5150202/)] (view is too little impact)
       - "ROOT's opinion likely cannot be extrapolated"
-   - .bold[Scikit-HEP]: Adopting software citation recommendations from broader open source world community norm &mdash; interested in more citations
-   - .bold[MCNet]: Find Monte Carlo generators are broadly well-cited (point to LHC experiments regular citations) &mdash; current system working well
+   - .bold[Scikit-HEP]: Adopting software citation recommendations from broader open source world community norms &mdash; interested in more citations
+   - .bold[MCnet]: Find Monte Carlo generators are broadly well-cited (point to LHC experiments regular citations) &mdash; current system working well
 * Agreement on importance of technical solutions
    - Programmatic discovery of citations important
 ]
@@ -160,8 +160,8 @@ As established by [FORCE11 Software Citation working group](https://force11.org/
    - Currently handles software .bold[papers], but has plans to add support for .bold[Data and Software]
    - Citations would be tracked and counted .bold[by DOI]
 * .bold[Elsevier]
-   - .bold[Community needs to reach consensus] on how to cite software, and share outcome with Publishers (won't take lead)
-   - Publishers can .bold[better instruct editors and referees] what we expect from them
+   - .bold[Community needs to reach consensus] on how to cite software, and share outcome with publishers (won't take lead)
+   - Publishers can .bold[better instruct editors and referees] what publishers expect from them
 * .bold[Journal of Open Source Software]
    - In addition to incentivizing high quality software, JOSS can help .bold[[bridge the gap](https://joss.theoj.org/about)]
    - "recognize that for most researchers, papers and not software are the currency of academic research"
@@ -293,13 +293,14 @@ date-released: 2021-08-11
 ---
 # Recommendations: Zenodo
 .center.huge[Versioned archive of .bold[everything]: code, documents, data products, data sets]
+.center[(See [Lars Holm Nielsen's CHEP 2023 talk](https://indico.jlab.org/event/459/contributions/11673/))]
 
 .kol-1-2[
-.center.width-100[[![zenodo-landing-page](figures/zenodo-landing-page.png)](https://zenodo.org/)]
+.center.width-95[[![zenodo-landing-page](figures/zenodo-landing-page.png)](https://zenodo.org/)]
 .center[DOI for project and each version]
 ]
 .kol-1-2[
-.center.width-65[[![why_use_zenodo](figures/why_use_zenodo.png)](https://zenodo.org/)]
+.center.width-60[[![why_use_zenodo](figures/why_use_zenodo.png)](https://zenodo.org/)]
 ]
 
 ---
@@ -310,12 +311,24 @@ date-released: 2021-08-11
    - Version control repository README
    - Online software documentation (landing page, how to cite page)
    - Package distribution websites (e.g. PyPI)
-- Have single source of truth for citations: version control repository that all other sources derive from.
-- Make your citation preferences clear to the world and SEO. Do not rely on people emailing to ask (they shouldn't have to).
+- Have .bold[single source of truth] for citations: version control repository that all other sources derive from.
+- Make your .bold[citation preferences clear] to the world and SEO. Do not rely on people emailing to ask (they shouldn't have to).
 ]
 .kol-1-2[
 .center.width-100[[![pyhf-citation-request](figures/pyhf-citation-request.png)](https://pyhf.readthedocs.io/en/stable/citations.html)]
 .center[[pyhf's "Use and Citations" page in documentation](https://pyhf.readthedocs.io/en/stable/citations.html)]
+]
+
+---
+# Revisiting Software Citation Principles in HEP
+
+.large[
+* .bold.large[Importance:] As a field HEP understands software is important, but improvements could be made on views towards research products
+* .bold.large[Credit and Attribution:] Improving in HEP, but can leverage software friendly journals (i.e., JOSS) to help this
+* .bold.large[Unique Identification:] Zenodo DOIs are common to HEP. CITATION.cff files can help as well.
+* .bold.large[Persistence:] Long term archival through Zenodo is common practice
+* .bold.large[Accessibility:] HEP is becoming more [FAIR](https://fair4hep.github.io/) focused. CITATION.cff provides common framework for metadata. Further support of INSPIRE by field could provide strong database access.
+* .bold.large[Specificity:] Include version numbers in CITATION.cff
 ]
 
 ---
@@ -324,7 +337,6 @@ date-released: 2021-08-11
 .huge[
 * Software citation is an .bold[ongoing process] that is not straightforward (for any scientific field)
 * Differing community .bold[processes and standards] exist in HEP (we've never been homogeneous)
-* HEP historically has engaged in software citation
 * Agreement that more citation is probably useful and .bold[programatic discovery] of citations is important
 * With modern tools and standards have the opportunity to .bold[expand and standardize]
 * Final summary paper from workshop forthcoming
