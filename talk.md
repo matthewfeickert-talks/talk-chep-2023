@@ -322,12 +322,12 @@ date-released: 2021-08-11
 # Revisiting Software Citation Principles
 
 .large[
-* .bold.huge[Importance]: As a field HEP understands software is important, but improvements could be made on views towards research products
-* .bold.huge[Credit and Attribution]: Improving in HEP, but can leverage software friendly journals (i.e., JOSS) to help this
-* .bold.huge[Unique Identification]: Zenodo DOIs are common to HEP. CITATION.cff files can help as well.
-* .bold.huge[Persistence]: Long term archival through Zenodo is common practice
-* .bold.huge[Accessibility]: HEP is becoming more FAIR focused. CITATION.cff provides common framework for metadata. Further support of INSPIRE by field could provide strong database access.
-* .bold.huge[Specificity]: Include version numbers in CITATION.cff
+* .bold.huge[Importance:] As a field HEP understands software is important, but improvements could be made on views towards research products
+* .bold.huge[Credit and Attribution:] Improving in HEP, but can leverage software friendly journals (i.e., JOSS) to help this
+* .bold.huge[Unique Identification:] Zenodo DOIs are common to HEP. CITATION.cff files can help as well.
+* .bold.huge[Persistence:] Long term archival through Zenodo is common practice
+* .bold.huge[Accessibility:] HEP is becoming more FAIR focused. CITATION.cff provides common framework for metadata. Further support of INSPIRE by field could provide strong database access.
+* .bold.huge[Specificity:] Include version numbers in CITATION.cff
 ]
 
 ---
