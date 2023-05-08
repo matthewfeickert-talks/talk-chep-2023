@@ -310,7 +310,7 @@ date-released: 2021-08-11
    - Version control repository README
    - Online software documentation (landing page, how to cite page)
    - Package distribution websites (e.g. PyPI)
-- Have single source of truth for citations: version control repository that all other sources derive from.
+- Have .bold[single source of truth] for citations: version control repository that all other sources derive from.
 - Make your citation preferences clear to the world and SEO. Do not rely on people emailing to ask (they shouldn't have to).
 ]
 .kol-1-2[
