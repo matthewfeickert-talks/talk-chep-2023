@@ -293,13 +293,14 @@ date-released: 2021-08-11
 ---
 # Recommendations: Zenodo
 .center.huge[Versioned archive of .bold[everything]: code, documents, data products, data sets]
+.center[(See [Lars Holm Nielsen's CHEP 2023 talk](https://indico.jlab.org/event/459/contributions/11673/))]
 
 .kol-1-2[
-.center.width-100[[![zenodo-landing-page](figures/zenodo-landing-page.png)](https://zenodo.org/)]
+.center.width-95[[![zenodo-landing-page](figures/zenodo-landing-page.png)](https://zenodo.org/)]
 .center[DOI for project and each version]
 ]
 .kol-1-2[
-.center.width-65[[![why_use_zenodo](figures/why_use_zenodo.png)](https://zenodo.org/)]
+.center.width-60[[![why_use_zenodo](figures/why_use_zenodo.png)](https://zenodo.org/)]
 ]
 
 ---
