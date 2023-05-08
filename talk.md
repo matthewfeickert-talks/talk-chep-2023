@@ -147,8 +147,8 @@ As established by [FORCE11 Software Citation working group](https://force11.org/
 * Community views vary widely
    - .bold[ROOT team]: Explicitly not interested in software citation .italic[[for ROOT](https://indico.cern.ch/event/1211229/contributions/5150202/)] (view is too little impact)
       - "ROOT's opinion likely cannot be extrapolated"
-   - .bold[Scikit-HEP]: Adopting software citation recommendations from broader open source world community norm &mdash; interested in more citations
-   - .bold[MCNet]: Find Monte Carlo generators are broadly well-cited (point to LHC experiments regular citations) &mdash; current system working well
+   - .bold[Scikit-HEP]: Adopting software citation recommendations from broader open source world community norms &mdash; interested in more citations
+   - .bold[MCnet]: Find Monte Carlo generators are broadly well-cited (point to LHC experiments regular citations) &mdash; current system working well
 * Agreement on importance of technical solutions
    - Programmatic discovery of citations important
 ]
@@ -160,8 +160,8 @@ As established by [FORCE11 Software Citation working group](https://force11.org/
    - Currently handles software .bold[papers], but has plans to add support for .bold[Data and Software]
    - Citations would be tracked and counted .bold[by DOI]
 * .bold[Elsevier]
-   - .bold[Community needs to reach consensus] on how to cite software, and share outcome with Publishers (won't take lead)
-   - Publishers can .bold[better instruct editors and referees] what we expect from them
+   - .bold[Community needs to reach consensus] on how to cite software, and share outcome with publishers (won't take lead)
+   - Publishers can .bold[better instruct editors and referees] what publishers expect from them
 * .bold[Journal of Open Source Software]
    - In addition to incentivizing high quality software, JOSS can help .bold[[bridge the gap](https://joss.theoj.org/about)]
    - "recognize that for most researchers, papers and not software are the currency of academic research"
