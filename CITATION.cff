@@ -1,6 +1,5 @@
 cff-version: 1.2.0
 message: "Please cite the following works when using this software."
-type: talk
 authors:
 - family-names: "Feickert"
   given-names: "Matthew"
