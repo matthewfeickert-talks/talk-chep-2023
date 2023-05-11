@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Please cite the following works when referencing this repository and talk."
+type: presentation
+authors:
+- family-names: "Feickert"
+  given-names: "Matthew"
+  orcid: "https://orcid.org/0000-0003-4124-7862"
+  affiliation: "University of Wisconsin-Madison"
+- family-names: "Katz"
+  given-names: "Daniel S."
+  orcid: "https://orcid.org/0000-0001-5934-7525"
+  affiliation: "University of Illinois at Urbana-Champaign"
+- family-names: "Neubauer"
+  given-names: "Mark"
+  orcid: "https://orcid.org/0000-0001-8434-9274"
+  affiliation: "University of Illinois at Urbana-Champaign"
+- family-names: "Sexton-Kennedy"
+  given-names: "Elizabeth"
+  orcid: "https://orcid.org/0000-0001-9171-1980"
+  affiliation: "Fermi National Accelerator Laboratory"
+- family-names: "Stewart"
+  given-names: "Graeme"
+  orcid: "https://orcid.org/0000-0003-0182-7088"
+  affiliation: "CERN"
+title: "Software Citation in HEP: Current State and Recommendations for the Future"
+version: 1.0.0
+repository-code: "https://github.com/matthewfeickert-talks/talk-chep-2023/releases/tag/chep-2023"
+url: "https://indico.jlab.org/event/459/contributions/11688/"
+keywords:
+  - software citation
+  - chep 2023
+license: "BSD-3-Clause"
